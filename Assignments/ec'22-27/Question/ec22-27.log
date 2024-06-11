@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.6.10)  10 JUN 2024 19:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.6.10)  11 JUN 2024 10:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1196,13 +1196,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 4
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-)
-No file ec22-27.aux.
+) (./ec22-27.aux)
 \openout1 = `ec22-27.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 48.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 48.
+
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1314,6 +1314,8 @@ LaTeX Info: Redefining \ohm on input line 48.
 Package gensymb Info: Using \textohm for \ohm on input line 48.
 Package gensymb Info: Using \textmu for \micro on input line 48.
 Package hyperref Info: Link coloring OFF on input line 48.
+
+(./ec22-27.out) (./ec22-27.out)
 \@outlinefile=\write5
 \openout5 = `ec22-27.out'.
 
@@ -1348,20 +1350,14 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./ec22-27.aux)
-
-Package rerunfilecheck Warning: File `ec22-27.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `ec22-27.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  F83D2C5E023CCD610E2311DC533FCE6B;83.
+Package rerunfilecheck Info: File `ec22-27.out' has not changed.
+(rerunfilecheck)             Checksum: F83D2C5E023CCD610E2311DC533FCE6B;83.
  ) 
 Here is how much of TeX's memory you used:
- 32089 strings out of 476091
- 648281 string characters out of 5794081
+ 32101 strings out of 476091
+ 648390 string characters out of 5794081
  1854330 words of memory out of 5000000
- 51792 multiletter control sequences out of 15000+600000
+ 51794 multiletter control sequences out of 15000+600000
  577620 words of font info for 174 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  101i,6n,96p,1175b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1370,10 +1366,10 @@ e/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on ec22-27.pdf (1 page, 27809 bytes).
+Output written on ec22-27.pdf (1 page, 28135 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 48 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

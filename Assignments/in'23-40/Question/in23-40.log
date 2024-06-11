@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.6.10)  10 JUN 2024 19:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.6.10)  11 JUN 2024 10:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1141,13 +1141,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 5
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-)
-No file in23-40.aux.
+) (./in23-40.aux)
 \openout1 = `in23-40.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 51.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 51.
+
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1259,6 +1259,8 @@ LaTeX Info: Redefining \ohm on input line 51.
 Package gensymb Info: Using \textohm for \ohm on input line 51.
 Package gensymb Info: Using \textmu for \micro on input line 51.
 Package hyperref Info: Link coloring OFF on input line 51.
+
+(./in23-40.out) (./in23-40.out)
 \@outlinefile=\write5
 \openout5 = `in23-40.out'.
 
@@ -1293,20 +1295,14 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./in23-40.aux)
-
-Package rerunfilecheck Warning: File `in23-40.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `in23-40.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  F83D2C5E023CCD610E2311DC533FCE6B;83.
+Package rerunfilecheck Info: File `in23-40.out' has not changed.
+(rerunfilecheck)             Checksum: F83D2C5E023CCD610E2311DC533FCE6B;83.
  ) 
 Here is how much of TeX's memory you used:
- 30467 strings out of 476091
- 600677 string characters out of 5794081
+ 30479 strings out of 476091
+ 600786 string characters out of 5794081
  1855330 words of memory out of 5000000
- 50200 multiletter control sequences out of 15000+600000
+ 50202 multiletter control sequences out of 15000+600000
  577620 words of font info for 174 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  101i,6n,96p,1175b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1315,10 +1311,10 @@ e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
 /utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on in23-40.pdf (1 page, 28891 bytes).
+Output written on in23-40.pdf (1 page, 28440 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
