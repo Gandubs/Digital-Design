@@ -904,7 +904,7 @@ Let $\textbf{m}$ represent the direction vector of the line:
 \end{align}
 For option (A)
 \begin{align}
-\textbf{m}\textbf{m}^{\top} &= 1
+\textbf{m}^{\top}\textbf{m} &= 1
 \end{align}
 The following is the normal equation of a line, where $\textbf{n}$ represents the normal vector.
 \begin{align}
@@ -1077,10 +1077,6 @@ Let the given lines be denoted by $\textbf{x}_1$ and $\textbf{x}_2$ respectively
         2
     \end{pmatrix} = \textbf{B} + k_2\textbf{m}_2 \label{13}
 \end{align}
-Equation of a line passing through point of intersection of two lines is given by $\textbf{x}_1 + \lambda\textbf{x}_2$, let the direction vector of the line be denoted by $\textbf{m}$
-\begin{align}
-    \brak{\textbf{A} + k_1\textbf{m}_1} + \lambda\brak{\textbf{B} + k_2\textbf{m}_2} &= 0
-\end{align}
 \end{frame}
 
 
@@ -1091,15 +1087,15 @@ Equation of a line passing through point of intersection of two lines is given b
 \frametitle{Solution}
 The two equations required to solve for the direction of line are 
 \begin{align}
-\textbf{m}_1\textbf{m}^\top &= 0\\
-\textbf{m}_2\textbf{m}^\top &= 0\\
+\textbf{m}^\top\textbf{m}_1 &= 0\\
+\textbf{m}^\top\textbf{m}_2 &= 0\\
 \implies \brak{\textbf{m}_1\textbf{m}_2}^{\top}\textbf{m} &= 0
 \end{align}
 \begin{align}
-    \textbf{m}\begin{pmatrix}
+    \begin{pmatrix}
         1 & 2 & 3\\
         0 & -3 & 2   \\
-    \end{pmatrix} \xleftarrow{R_1 \to 2R_2 + 3R_1} &\begin{pmatrix}
+    \end{pmatrix}\textbf{m} \xleftarrow{R_1 \to 2R_2 + 3R_1} &\begin{pmatrix}
         3 & 0 & 13\\
         0 & -3 & 2   \\
     \end{pmatrix}\textbf{m} = 0\\
