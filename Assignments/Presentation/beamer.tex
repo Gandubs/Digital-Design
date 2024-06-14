@@ -42,10 +42,10 @@
     \item [1)]
 The centre of a circle is at (2,0). If one end if a diameter is at (6,0), then the other end is at :
 \begin{enumerate}
-\item $\brak{0,0}$
-\item $\brak{4,0}$
-\item $\brak{-2,0}$
-\item $\brak{-6,0}$
+\item [(A)] $\brak{0,0}$
+\item [(B)] $\brak{4,0}$
+\item [(C)] $\brak{-2,0}$
+\item [(D)] $\brak{-6,0}$
 \end{enumerate}
 \end{enumerate}
 \end{frame}
@@ -92,10 +92,10 @@ $\implies \text{Option (C) is true}$
 \item [2)]
 $AD$ is a median of $\Delta ABC$ with vertices $A\brak{5,-6}$,$B\brak{6,4}$ and $C\brak{0,0}$. Length $AD$ is equal to:
 \begin{enumerate}
-\item $\sqrt{68}$
-\item $2\sqrt{15}$
-\item $\sqrt{101}$
-\item $10$
+\item [(A)] $\sqrt{68}$
+\item [(B)] $2\sqrt{15}$
+\item [(C)] $\sqrt{101}$
+\item [(D)] $10$
 \end{enumerate}
 \end{enumerate}
 \end{frame}
@@ -159,10 +159,10 @@ $\implies$ Option (A) is true.
     \item [3)]
 If the distance between the points $\brak{3,-5}$ and $\brak{x,-5}$ is $15$ units, then the values of $x$ are
 \begin{enumerate}
-\item $12,-18$
-\item $-12,18$
-\item $18,5$
-\item $-9,-12$
+\item [(A)] $12,-18$
+\item [(B)] $-12,18$
+\item [(C)] $18,5$
+\item [(D)] $-9,-12$
 \end{enumerate}
 \end{enumerate}
 \end{frame}
@@ -245,18 +245,21 @@ The above system of equations can be written as:
     \end{align}
     Writing the augmented matrix for using Gauss elimination
     \begin{align}
-        \begin{amatrix}{2}
+        &\begin{amatrix}{2}
    2 & 5 & -4 \\  4 & -3 & 5
  \end{amatrix} \xleftarrow{R_2 \to R_2-2R_1}
   \begin{pmatrix}
+   2 & 5 & -4 \\  0 & -13 & 13
+ \end{pmatrix} 
+ \\
+&\begin{pmatrix}
    2 & 5 & -4 \\  0 & -13 & 13
  \end{pmatrix} \xleftarrow{R_1 \to \frac{13}{5}R_1+R_2}
  \begin{pmatrix}
    \frac{26}{5} & 0 & \frac{13}{5} \\  0 & -13 & 13
  \end{pmatrix}  \label{14}
- \end{align}
- \begin{align}
-     \implies \begin{pmatrix}
+ \\
+    & \implies \begin{pmatrix}
         x\\
         y
     \end{pmatrix} =
@@ -382,12 +385,12 @@ Let the points be denoted by $\textbf{A}$,$\textbf{B}$ and $\textbf{C}$ respecti
   A &= \begin{pmatrix}
         1\\
         2
-    \end{pmatrix}  \\
-    B &= \begin{pmatrix}
+    \end{pmatrix}  ,
+    B = \begin{pmatrix}
         2\\
         3
-    \end{pmatrix}\\
-  C &= \begin{pmatrix}
+    \end{pmatrix},
+  C = \begin{pmatrix}
         \frac{8}{5}\\
         y
     \end{pmatrix}
@@ -515,10 +518,10 @@ Since the midpoints of the diagonals coincide, the diagonals bisect each other.
     \item [1)]
 If $\overrightarrow{a} = 2\hat{i} - \hat{j} + \hat{k}$ and  $\overrightarrow{b} = \hat{i} + \hat{j} - \hat{k}$, then $\overrightarrow{a}$ and $\overrightarrow{b}$ are:
     \begin{enumerate}
-\item Collinear vectors which are not parallel
-\item Parallel vectors
-\item Perpendicular vectors
-\item Unit vectors
+\item [(A)] Collinear vectors which are not parallel
+\item [(B)] Parallel vectors
+\item [(C)] Perpendicular vectors
+\item [(D)] Unit vectors
 \end{enumerate}
 \end{enumerate}
     
@@ -578,10 +581,10 @@ $\implies$ Option (C) is true.
     \item [2)]
 If $\alpha$,$\beta$ and $\gamma$ are the angles which a line makes with positive directions of $x$,$y$ and $z$ axes respectively, then which of the following are \textbf{not} true?
     \begin{enumerate}
-\item $\cos^2{\alpha} + \cos^2{\beta} + \cos^2{\gamma} = 1$
-\item $\sin^2{\alpha} + \sin^2{\beta} + \sin^2{\gamma} = 2$
-\item $\cos{2\alpha} + \cos{2\beta} + \cos{2\gamma} =-1$
-\item $\cos{\alpha} + \cos{\beta} + \cos{\gamma} = 1$
+\item [(A)] $\cos^2{\alpha} + \cos^2{\beta} + \cos^2{\gamma} = 1$
+\item [(B)] $\sin^2{\alpha} + \sin^2{\beta} + \sin^2{\gamma} = 2$
+\item [(C)] $\cos{2\alpha} + \cos{2\beta} + \cos{2\gamma} =-1$
+\item [(D)] $\cos{\alpha} + \cos{\beta} + \cos{\gamma} = 1$
 \end{enumerate}
 \end{enumerate}
 \end{frame}
@@ -793,19 +796,19 @@ The two equations required to solve for the direction of line are
     \begin{pmatrix}
         1 & 2 & 3\\
         0 & -3 & 2   \\
-    \end{pmatrix}\textbf{m} \xleftarrow{R_1 \to 2R_2 + 3R_1} &\begin{pmatrix}
+    \end{pmatrix}\textbf{m} &\xleftarrow{R_1 \to 2R_2 + 3R_1} \begin{pmatrix}
         3 & 0 & 13\\
         0 & -3 & 2   \\
     \end{pmatrix}\textbf{m} = 0\\
-    \begin{pmatrix}
+  &\implies  \begin{pmatrix}
         3 & 0 & 13\\
         0 & -3 & 2   \\
     \end{pmatrix}\begin{pmatrix}
         m_x\\
         m_y\\
         m_z
-    \end{pmatrix} &= 0\\
-    \implies \textbf{m} &= \begin{pmatrix}
+    \end{pmatrix} = 0\\
+    &\implies \textbf{m} = \begin{pmatrix}
         \frac{-13}{3}\\
         \frac{2}{3}\\
         1
@@ -890,7 +893,7 @@ Given:
         2
     \end{pmatrix}
 \end{align}
-Let the corresponding foot of perpendicular of $\textbf{A}$ on line $\textbf{CD}$ be $\textbf{P}$, the direction vector of line $\textbf{CD}$ be $\textbf{m}_1$ . Therefore the required equations are:
+Let the corresponding foot of perpendicular of $\textbf{A}$ on line $\textbf{CD}$ be $\textbf{P}$, the direction vector of line $\textbf{CD}$ be $\textbf{m}_1$ . Therefore:
 \begin{align}
     \brak{\textbf{A}-\textbf{P}}^{\top} \textbf{m}_1 &= 0 \label{15}\\
     \textbf{P} &= \textbf{Q} + k\textbf{m}_1 \label{16}
@@ -945,7 +948,7 @@ Now
 \begin{align}
     x\brak{n} &= \brak{x\brak{0} + nd}u\brak{n}\label{5}
     \end{align}
-    Where $d$ is the common difference of the A.P and $u_n$ is the unit step function.\\($u\brak{n}=0 \forall n<0$,$u\brak{n}=1 \forall n\geq0$)
+    Where $d$ is the common difference of the A.P and $u(n)$ is the unit step function.\\($u\brak{n}=0 \forall n<0$,$u\brak{n}=1 \forall n\geq0$)
 \end{frame}
 
 
@@ -1088,7 +1091,8 @@ Using $\eqref{shift}$
 The inverse-Z of a constant will be $\delta(n)$, so it is ruled out.
 Plugging these values in $\eqref{final}$ we get
 \begin{align}
-   y(n) &= 8u\brak{n-1} + 10(n-1)u\brak{n-1} + 4\frac{(n-1)(n-2)u\brak{n-2}}{2} +2\delta(n)
+   y(n) = 8u\brak{n-1} + 10(n-1)u\brak{n-1} &+ 4\frac{(n-1)(n-2)u\brak{n-2}}{2} \notag \\
+   &+ 2\delta(n)
 \end{align}
 Putting $n=19$
 \begin{align}
@@ -1141,12 +1145,6 @@ Similarly, the sum for the A.P. $30,26,22...$ can be found by the same procedure
 
 
 
-
-
-\begin{frame}
-\frametitle{Class 10}
-    Class 10
-\end{frame}
 
 
 

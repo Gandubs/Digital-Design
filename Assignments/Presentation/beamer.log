@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.6.10)  14 JUN 2024 08:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.6.10)  14 JUN 2024 09:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1117,17 +1117,12 @@ Overfull \vbox (44.55656pt too high) detected at line 29
 
 ] [11
 
-]
-Overfull \hbox (42.19383pt too wide) detected at line 268
-[]
- []
-
-[12
+] [12
 
 ] [13
 
 ]
-Overfull \vbox (22.11954pt too high) detected at line 318
+Overfull \vbox (22.11954pt too high) detected at line 321
  []
 
 [14
@@ -1137,12 +1132,8 @@ Overfull \vbox (22.11954pt too high) detected at line 318
 ] [16
 
 ]
-Overfull \hbox (2.87636pt too wide) detected at line 417
+Overfull \hbox (2.87636pt too wide) detected at line 420
 []
- []
-
-
-Overfull \vbox (44.71738pt too high) detected at line 417
  []
 
 [17
@@ -1164,7 +1155,7 @@ Overfull \vbox (44.71738pt too high) detected at line 417
 ] [25
 
 ]
-Overfull \vbox (19.32687pt too high) detected at line 616
+Overfull \vbox (19.32687pt too high) detected at line 619
  []
 
 [26
@@ -1186,7 +1177,7 @@ Overfull \vbox (19.32687pt too high) detected at line 616
 ] [34
 
 ]
-Overfull \vbox (16.19556pt too high) detected at line 814
+Overfull \vbox (16.19556pt too high) detected at line 817
  []
 
 [35
@@ -1196,7 +1187,7 @@ Overfull \vbox (16.19556pt too high) detected at line 814
 ] [37
 
 ]
-Overfull \vbox (45.55457pt too high) detected at line 901
+Overfull \vbox (29.91464pt too high) detected at line 904
  []
 
 [38
@@ -1206,19 +1197,19 @@ Overfull \vbox (45.55457pt too high) detected at line 901
 ] [40
 
 ]
-Overfull \vbox (29.3106pt too high) detected at line 949
+Overfull \vbox (29.3106pt too high) detected at line 952
  []
 
 [41
 
 ]
-Overfull \vbox (30.67276pt too high) detected at line 973
+Overfull \vbox (30.67276pt too high) detected at line 976
  []
 
 [42
 
 ]
-Overfull \vbox (12.54607pt too high) detected at line 993
+Overfull \vbox (12.54607pt too high) detected at line 996
  []
 
 [43
@@ -1226,7 +1217,7 @@ Overfull \vbox (12.54607pt too high) detected at line 993
 ] [44
 
 ]
-Overfull \vbox (21.77747pt too high) detected at line 1042
+Overfull \vbox (21.77747pt too high) detected at line 1045
  []
 
 [45
@@ -1234,14 +1225,14 @@ Overfull \vbox (21.77747pt too high) detected at line 1042
 ] [46
 
 ]
-Overfull \hbox (40.66928pt too wide) detected at line 1098
+Overfull \hbox (2.16106pt too wide) detected at line 1102
 []
  []
 
 [47
 
 ]
-Overfull \vbox (7.52489pt too high) detected at line 1122
+Overfull \vbox (7.52489pt too high) detected at line 1126
  []
 
 [48
@@ -1252,15 +1243,13 @@ Overfull \vbox (7.52489pt too high) detected at line 1122
 
 ] [51
 
-] [52
-
-] [53]
-Overfull \vbox (7.52489pt too high) detected at line 1222
+] [52]
+Overfull \vbox (7.52489pt too high) detected at line 1220
  []
 
-[54
+[53
 
-] [55
+] [54
 
 ]
 \tf@nav=\write6
@@ -1277,10 +1266,10 @@ Package rerunfilecheck Info: File `beamer.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27604 strings out of 476091
- 548940 string characters out of 5794081
- 1868330 words of memory out of 5000000
- 47305 multiletter control sequences out of 15000+600000
+ 27600 strings out of 476091
+ 548903 string characters out of 5794081
+ 1867330 words of memory out of 5000000
+ 47303 multiletter control sequences out of 15000+600000
  524608 words of font info for 76 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  128i,19n,122p,1873b,629s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1295,10 +1284,10 @@ ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /symbols/msam10.pfb>
-Output written on beamer.pdf (55 pages, 172716 bytes).
+Output written on beamer.pdf (54 pages, 172290 bytes).
 PDF statistics:
- 558 PDF objects out of 1000 (max. 8388607)
- 367 compressed objects within 4 object streams
- 138 named destinations out of 1000 (max. 500000)
+ 552 PDF objects out of 1000 (max. 8388607)
+ 362 compressed objects within 4 object streams
+ 136 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
