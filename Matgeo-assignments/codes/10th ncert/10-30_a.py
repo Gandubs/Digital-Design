@@ -1,17 +1,9 @@
-#Code by GVV Sharma
-#September 23, 2023
-#released under GNU GPL
-#Altitudes of a triangle
-#Orthocentre
-
-
 import sys                                          #for path to external scripts
 sys.path.insert(0, '/home/krishna/Documents/Matgeo-assignments/codes/CoordGeo')        #path to my scripts
 import numpy as np
 import numpy.linalg as LA
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
-import math
 
 #local imports
 from line.funcs import *
@@ -24,38 +16,29 @@ from conics.funcs import circ_gen
 #import shlex
 #end if
 
+#given points
+A = np.array([1,2]).reshape(-1,1)
+B = np.array([2,3]).reshape(-1,1)
 
-#Given points
-A = np.array([2,0]).reshape(-1,1)
-B = np.array([6,0]).reshape(-1,1) 
+#SInce C-A=K(C-B) comparing all terms of matrix we find C[1] and K
+C = np.array([8/5,13/5]).reshape(-1,1)
 
-#Find other end point
-C = 2*A-B
-print("The other endpoint is : " ,C)
 
-#radius vec
-m1 = dir_vec(A,B)
 
-#Radius length
-r =LA.norm(B-A)
-print("The radius is : " ,r)
+#Checking collinearity
+mat=np.block([[1,1,1],[A,B,C]]).T
+print(LA.matrix_rank(mat))
 
-#Generating AB and AC
+#printing ratio
+print("The ratio in which the point divides the 2 points are ",LA.norm(C-A)/LA.norm(C-B))
+
+
+
+#Generating all lines
 x_AB = line_gen(A,B)
-x_AC = line_gen(A,C)
 
-
-#generating circle
-x_circ= circ_gen(A,r)
-
-#Plotting AB
-plt.plot(x_AB[0,:],x_AB[1,:],'--',label='$AB$')
-plt.plot(x_AC[0,:],x_AC[1,:],'--',label='$AC$')
-
-
-#plotting circle
-plt.plot(x_circ[0,:],x_circ[1,:],label='$Circle$')
-
+#Plotting all lines
+plt.plot(x_AB[0,:],x_AB[1,:],label='$AB$')
 
 #Labeling the coordinates
 tri_coords = np.block([[A,B,C]])
@@ -74,7 +57,8 @@ plt.grid() # minor
 plt.axis('equal')
 
 #if using termux
-plt.savefig('/home/krishna/Documents/Matgeo-assignments/figs/10-6.pdf')
-#subprocess.run(shlex.split("termux-open figs/triangle/altitude.pdf"))
+plt.savefig('/home/krishna/Documents/Matgeo-assignments/figs/10-30_a.pdf')
+#subprocess.run(shlex.split("termux-open figs/triangle/median.pdf"))
 #else
 #plt.show()
+
